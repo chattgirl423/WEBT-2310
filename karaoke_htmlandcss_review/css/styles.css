@@ -74,3 +74,61 @@ section {
     padding: 10px;
 
 }
+
+#multi_col {
+    background-color: #F5D156
+}
+
+.col {
+    margin: 10px 0;
+    padding: 10px;
+
+}
+
+#lower_area {
+    background-color: #BBD5E5;
+    padding: 10px;
+}
+
+.column {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 4px solid #0367A6;
+}
+
+.column img {
+    width: 75%;
+
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+
+    nav {
+        padding: 20px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 150px;
+        border-radius: 10px
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        width: 50%;
+    }
+}

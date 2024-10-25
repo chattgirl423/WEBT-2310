@@ -35,6 +35,7 @@ header,
 section,
 footer {
     background-color: #0367A6;
+
 }
 
 /* Mobile Styles */
@@ -180,5 +181,12 @@ footer {
 
     .column img {
         width: 75%;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
     }
 }

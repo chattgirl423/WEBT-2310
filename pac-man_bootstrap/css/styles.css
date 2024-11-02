@@ -1,0 +1,23 @@
+body {
+    background-color: #5db8e9;
+    color: black;
+}
+
+/* Classes */
+
+.navbar {
+    background-color: #5db8e9;
+}
+
+/* IDs */
+
+#header_img {
+    background-image: url(../images/pac-man-40.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#header {
+    width: 50%;
+}
